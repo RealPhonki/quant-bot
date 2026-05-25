@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-bot"
+version = "0.1.0"
+description = "My first quant bot"
+authors = [{name="RealPhonki"}]
+dependencies = []
+
+[tool.setuptools]
+packages = ["src"]
