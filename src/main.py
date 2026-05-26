@@ -4,6 +4,8 @@ from src.evaluator import Evaluator
 from src.game import Game
 
 # TODO: determine format for args
+# NOTE: it is important for stockclient to be instantiated at the highest level because
+# the specific stocks fetched can be chosen through *args
 
 class App:
     def __init__(self) -> None:
@@ -13,7 +15,8 @@ class App:
         pass
 
     def run(self) -> None:
-        pass
+        df = self.stock_client.fetch("CSPF")
+        print(df.head())
 
     def run_evaluation(self) -> None:
         pass

@@ -1,0 +1,9 @@
+llvmlite==0.44.0
+numba==0.61.2
+numpy==2.2.6
+pandas==3.0.3
+pandas-ta==0.4.71b0
+python-dateutil==2.9.0.post0
+-e git+https://github.com/RealPhonki/quant-bot.git@61b26037020cb8942bf2b8366fa47c41766af306#egg=quant_bot
+six==1.17.0
+tqdm==4.67.3
