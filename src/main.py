@@ -17,6 +17,7 @@ class App:
     def run(self) -> None:
         df = self.stock_client.fetch("CSPF")
         print(df.head())
+        print(df.tail())
 
     def run_evaluation(self) -> None:
         pass
